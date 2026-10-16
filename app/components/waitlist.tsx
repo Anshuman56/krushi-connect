@@ -2,7 +2,7 @@
 
 import { useActionState } from "react";
 import { waitList, type waitlistType } from "../action";
-import { STATES } from "mongoose";
+
 const initialState: waitlistType = {
   status: "idle",
   message: "",
@@ -22,7 +22,10 @@ export default function WaitList() {
         <p className="text-base md:text-lg max-w-2xl mt-8">
           Sell you farm product to direct owner no middle man
         </p>
-        <p className=" text-xs uppercase tracking-wide bg-green-100 text-green-800 rounded-full px-3 py-1 inline-block">
+        <p className="text-base md:text-lg max-w-2xl ">
+          ଚାଷୀଙ୍କ ସହ ସିଧାସଳଖ ଯୋଡ଼ି ହୁଅନ୍ତୁ ।
+        </p>
+        <p className=" text-xs uppercase tracking-wide bg-green-100 text-green-800 rounded-full px-3 py-1 mt-5 inline-block">
           Launching soon in Bhubaneswar
         </p>
         <form
@@ -56,9 +59,6 @@ export default function WaitList() {
         ) : (
           <p>{state.message}</p>
         )}
-        <footer className="mt-6 leading-relaxed text-green-800">
-          Built by Anshuman
-        </footer>
       </div>
     </section>
   );
