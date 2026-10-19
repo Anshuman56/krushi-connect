@@ -20,7 +20,7 @@ export default function WaitList() {
           Direct from farm to restaurant
         </h2>
         <p className="text-base md:text-lg max-w-2xl mt-8">
-          Sell you farm product to direct owner no middle man
+          Sell your crops directly to restaurants. No middleman.
         </p>
         <p className="text-base md:text-lg max-w-2xl ">
           ଚାଷୀଙ୍କ ସହ ସିଧାସଳଖ ଯୋଡ଼ି ହୁଅନ୍ତୁ ।
