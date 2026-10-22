@@ -66,8 +66,15 @@ export default function ListingForm() {
         type="submit"
         className="py-3 text-lg font-semibold rounded-lg cursor-pointer"
       >
-        Post Listing
+        {pending ? "Posting..." : "Post Listing"}
       </button>
+      {state.status === "success" ? (
+        <p className="text-green-500">{state.message}</p>
+      ) : state.status === "error" ? (
+        <p className="text-red-500">{state.message}</p>
+      ) : (
+        <p>{state.message}</p>
+      )}
     </form>
   );
 }
