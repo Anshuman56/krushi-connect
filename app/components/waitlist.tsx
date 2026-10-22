@@ -1,7 +1,8 @@
 "use client";
 
 import { useActionState } from "react";
-import { waitList, type waitlistType } from "../action";
+import { waitList } from "../action";
+import { type waitlistType } from "@/lib/types";
 
 const initialState: waitlistType = {
   status: "idle",

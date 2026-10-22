@@ -3,10 +3,7 @@
 import Waitlist from "@/lib/models/Waitlist";
 import { dbConnect } from "@/lib/mongodb";
 
-export type waitlistType = {
-  status: "idle" | "error" | "success";
-  message: string;
-};
+import { type waitlistType } from "@/lib/types";
 
 export async function waitList(
   prevState: waitlistType,

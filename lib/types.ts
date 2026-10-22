@@ -7,3 +7,8 @@ export type Listing = {
   whatsAppNumber: string;
   createdAt: string;
 };
+
+export type waitlistType = {
+  status: "idle" | "error" | "success";
+  message: string;
+};
