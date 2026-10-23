@@ -1,11 +1,10 @@
 export type Listing = {
   farmerName: string;
-  crop: string;
-  quantity: number;
-  pricePerKg: number;
+  cropName: string;
+  cropQuantity: number;
+  cropPrice: number;
   location: string;
-  whatsAppNumber: string;
-  createdAt: string;
+  mobNumber: string;
 };
 
 export type waitlistType = {

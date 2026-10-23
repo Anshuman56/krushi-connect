@@ -30,12 +30,6 @@ export async function createList(
       message: "You can't submit an empty mobile number",
     };
   }
-  if (typeof cropQuantity !== "number" || cropQuantity === 0) {
-    return {
-      status: "error",
-      message: "You can't submit an zero in crop quantity",
-    };
-  }
 
   if (mobNumber.length !== 10) {
     return {

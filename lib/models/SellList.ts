@@ -7,7 +7,7 @@ const WaitListSchema = new mongoose.Schema({
   cropPrice: { type: Number, require: true },
   location: { type: String, require: true },
   mobNumber: { type: String, require: true },
-  createAt: { type: Date, default: Date.now },
+  createdAt: { type: Date, default: Date.now },
 });
 
 export default mongoose.models.SellList ||
