@@ -1,5 +1,6 @@
 import SellList from "@/lib/models/SellList";
 import { dbConnect } from "@/lib/mongodb";
+export const instant = false;
 
 export default async function Listings() {
   await dbConnect();
