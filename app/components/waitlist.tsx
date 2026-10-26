@@ -28,9 +28,21 @@ export default function WaitList() {
           <p className="text-base md:text-lg max-w-2xl ">
             ଚାଷୀଙ୍କ ସହ ସିଧାସଳଖ ଯୋଡ଼ି ହୁଅନ୍ତୁ ।
           </p>
-          <p className=" text-xs uppercase tracking-wide bg-green-100 text-green-800 rounded-full px-3 py-1 mt-5 inline-block">
-            Launching soon in Bhubaneswar
-          </p>
+          <div className="flex flex-col sm:flex-row justify-center gap-4 mt-8">
+            <Link
+              href="/listings"
+              className="bg-green-600 hover:bg-green-700 text-white font-semibold rounded-lg px-6 py-3 text-center transition-colors"
+            >
+              Browse produce / ଫସଲ ଦେଖନ୍ତୁ
+            </Link>
+
+            <Link
+              href="/sell"
+              className="bg-white hover:bg-green-50 text-green-700 font-semibold border border-green-600 rounded-lg px-6 py-3 text-center transition-colors"
+            >
+              Sell your crop / ଫସଲ ବିକ୍ରି କରନ୍ତୁ
+            </Link>
+          </div>
           <form
             action={formAction}
             className="mt-5 flex flex-col sm:flex-row gap-3 max-w-xl mx-auto"
@@ -64,21 +76,6 @@ export default function WaitList() {
           )}
         </div>
       </section>
-      <div className="flex flex-col sm:flex-row justify-center gap-4 mt-8">
-        <Link
-          href="/listings"
-          className="bg-green-600 hover:bg-green-700 text-white font-semibold rounded-lg px-6 py-3 text-center transition-colors"
-        >
-          Browse produce / ଫସଲ ଦେଖନ୍ତୁ
-        </Link>
-
-        <Link
-          href="/sell"
-          className="bg-white hover:bg-green-50 text-green-700 font-semibold border border-green-600 rounded-lg px-6 py-3 text-center transition-colors"
-        >
-          Sell your crop / ଫସଲ ବିକ୍ରି କରନ୍ତୁ
-        </Link>
-      </div>
     </>
   );
 }
