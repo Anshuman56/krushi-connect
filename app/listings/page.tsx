@@ -2,10 +2,16 @@ import SellList from "@/lib/models/SellList";
 import { dbConnect } from "@/lib/mongodb";
 export const instant = false;
 
-export default async function Listings() {
+export default async function Listings({
+  searchParams,
+}: {
+  searchParams: Promise<{ [key: string]: string | string[] | undefined }>;
+}) {
   await dbConnect();
   const listings = await SellList.find({}).sort({ createdAt: -1 }).lean();
   console.log(listings);
+  const filter = await searchParams;
+  console.log(filter);
 
   return (
     <main className="max-w-3xl mx-auto p-6">
@@ -15,6 +21,17 @@ export default async function Listings() {
           Available Crops
         </span>
       </h1>
+      <form method="get">
+        <select name="crop">
+          <option>Tomato</option>
+          <option>Potato</option>
+          <option>Bean</option>
+        </select>
+        <label htmlFor="">
+          Village: <input type="text" name="location" />
+        </label>
+        <button type="submit">Submit</button>
+      </form>
 
       {listings.length === 0 ? (
         <div className="text-center py-12 bg-green-50 rounded-xl border border-green-100">
