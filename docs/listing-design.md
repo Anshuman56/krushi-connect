@@ -25,3 +25,10 @@ Only list numbers if owners have agreed to show that in public.
 - crop image most be certain size.
 - Price most be number not sting.
 - location most be village name and district.
+
+### Filters
+
+- No crop and no village: show everything.
+- Only crop: show that crop.
+- Only village: show that village.
+- Both: show listings matching both.
