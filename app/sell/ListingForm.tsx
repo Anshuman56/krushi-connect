@@ -19,12 +19,17 @@ export default function ListingForm() {
       </label>
       <label className="text-sm font-medium text-gray-700">
         Crop Name:{" "}
-        <input
-          className="w-full rounded-lg border border-gray-300 px-4 py-3 text-lg"
-          type="text"
+        <select
+          id="crop"
           name="cropName"
-          required
-        />
+          className="w-full border rounded-lg p-3"
+        >
+          <option value="">All crops</option>
+          <option value="tomato">Tomato</option>
+          <option value="potato">Potato</option>
+          <option value="onion">Onion</option>
+          <option value="rice">Rice</option>
+        </select>
       </label>
       <label className="text-sm font-medium text-gray-700">
         Crop Quantity:{" "}

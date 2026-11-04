@@ -1,8 +1,8 @@
 import SellList from "@/lib/models/SellList";
 import { dbConnect } from "@/lib/mongodb";
 import { connection } from "next/server";
-
 import Link from "next/link";
+
 export const instant = false;
 type SearchParams = Promise<{
   crop?: string;
@@ -27,6 +27,10 @@ export default async function Listings({
   }
 
   if (location) {
+    filter.location = { $regex: location, $options: "i" };
+  }
+  if (cropName && location) {
+    filter.cropName = { $regex: cropName, $options: "i" };
     filter.location = { $regex: location, $options: "i" };
   }
   await dbConnect();
