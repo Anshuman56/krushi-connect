@@ -1,0 +1,2 @@
+- I talk with two or three farmer in my local market. They say they don't own a phone but there kids do have phones.
+- So I go with Option C: assisted listing. Someone with a phone lists for the farmer: a son or daughter, a village helper, or you at the start. Good: farmers without phones can still sell. Bad: it depends on finding helpers.
