@@ -16,3 +16,7 @@ Option D: your own idea, if you have one.
 4. Leaning toward: a temporary choice and why. The final decision comes on Saturday, after real evidence.
 
 5. What changes in the code if I choose this? Keep it small. Maybe “Farmer” becomes “Seller” in the labels, plus one new field like “seller type”. No big rebuild. The v1 scope cuts still stand.
+
+- How about we don't sell to Restaurants or hotel but to Treaders. Traders are going to village to village to collect product and only grab product when it came to Haat. How about give them and online opportunity to buy product form there comfort of there home. By chatting or calling to farmers who listed there product in the platform.
+
+- If we sell to Trader: the trader don't constantly fear about don't get any product to sell in Haat. Harder: Nothing in top of my mind. They another alternative to find product form farmer.

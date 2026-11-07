@@ -20,10 +20,10 @@ export default function WaitList() {
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-6xl md:text-7xl font-bold">KrushiConnect</h1>
           <h2 className="text-xl md:text-2xl text-green-800 mt-2">
-            Direct from farm to restaurant
+            Direct from farm to trader
           </h2>
           <p className="text-base md:text-lg max-w-2xl mt-8">
-            Sell your crops directly to restaurants. No middleman.
+            Sell your crops directly to Traders.
           </p>
           <p className="text-base md:text-lg max-w-2xl ">
             ଚାଷୀଙ୍କ ସହ ସିଧାସଳଖ ଯୋଡ଼ି ହୁଅନ୍ତୁ ।
