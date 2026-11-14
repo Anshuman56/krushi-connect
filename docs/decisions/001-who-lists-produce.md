@@ -20,3 +20,4 @@ Option D: your own idea, if you have one.
 - How about we don't sell to Restaurants or hotel but to Treaders. Traders are going to village to village to collect product and only grab product when it came to Haat. How about give them and online opportunity to buy product form there comfort of there home. By chatting or calling to farmers who listed there product in the platform.
 
 - If we sell to Trader: the trader don't constantly fear about don't get any product to sell in Haat. Harder: Nothing in top of my mind. They another alternative to find product form farmer.
+- There is not need to change the form the farmer list there products with the help of helper or not and we only sell to Treader not restaurants but it they find out us and want buy form direct farmer them be it.

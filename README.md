@@ -8,7 +8,11 @@ It is a platform where a farmer direct sell product to hotels or restaurant.
 
 ## Current status (v0.1)
 
-- You can give you add your email if you are interested.
+- You can add your email if you are interested.
+
+## What I learned from users
+
+- They don't use phones but there child's do so they can list there farming product there. And I don't give separate form for there child who post the list. I just keep it simple by just give the farmers name who ever list that product and there phone number.
 
 ## Tech Stack
 
